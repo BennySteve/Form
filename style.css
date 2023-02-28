@@ -1,0 +1,130 @@
+body{
+    margin: 0px 0px;
+    display: flex;
+    height: 100vh;
+    color: rgba(240, 248, 255,80%)
+}
+
+/*Image side start*/
+
+.img{
+    width: 45vw;
+    height: 100%;
+}
+.picture{
+    background-image: url(img/band.jpg); 
+    background-color: #141414; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:contain;  
+    width: 45vw;
+    height: 100%;
+    position: relative;
+}
+
+.picture .credits{
+    color: rgba(232, 240, 252,60%);
+    margin: 0px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100vh;
+    font-size: .7rem;
+} 
+
+.symbol{
+    height: 80px;
+    width:45vw;
+    margin-top: 130px;
+    position: fixed;
+    background-color: rgba(232, 240, 252,40%);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    height: 65px;
+}
+
+.name{
+    font-size: 3.5rem;
+    font-family: "New Rocker";
+    color: rgba(0, 8, 21, 100%);
+}
+
+/*Image side stop*/
+
+/*Form side start*/
+.form{
+    background-color: #141414;
+    width: 100%;
+    padding: 2px; 
+    padding-top: 20px; 
+
+}
+
+.text{
+    font-size: 1.4rem;
+    padding-left: 19px;
+}
+
+span{
+    font-family: "New Rocker";
+    font-weight: 300px;
+}
+
+.before-form{
+    margin-top: 80px;
+}
+
+form{
+    margin:20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    /* border:  rgb(1, 11, 27) 2px solid ; */
+    border-radius: 5px;
+}
+
+input{
+    background-color: transparent;
+    padding: 6px 7px;
+    color: rgba(240, 248, 255,60%);
+    border: none;
+    box-shadow: 0px 0px 7px rgba(240, 248, 255,90%); 
+    border-radius: 18px; 
+    margin-left: 1rem;
+    margin-top: 7px;
+    min-width: 170px; 
+    width: 35%;
+    font-size: .9rem;
+}
+
+::placeholder{
+    color: rgba(240, 248, 255,60%);
+}
+
+button{
+    margin-top: 40px;
+    border: none;
+    border-width: 3px;
+    background-color: transparent;
+    padding: 14px;
+    width: 200px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: rgba(240, 248, 255,90%) ;
+    box-shadow: 0px 0px 25px rgba(240, 248, 255,90%); 
+    background-color: rgba(240, 248, 255,40%);
+}
+
+.two{
+    display: flex;
+    gap: 1%;
+}
+/*Form side stop*/
